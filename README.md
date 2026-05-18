@@ -84,3 +84,18 @@ Fluxo de comunicação:
 ### 1. Clonar o repositório
 ```bash
 git clone https://github.com/seuusuario/chatbot-especialista
+---
+
+### 2. Acessar o projeto
+```bash
+cd chatbot-especialista
+pip install -r requirements.txt
+OPENAI_API_KEY=sua_chave_aqui
+python src/main.py
+Desafios Superados
+
+Durante o desenvolvimento do Chatbot Especialista, alguns desafios técnicos foram encontrados e resolvidos.
+
+Integração com Inteligência Artificial
+Desafio: entender como se comunicar corretamente com APIs de IA
+Solução: padronização das requisições e tratamento das respostas retornadas
